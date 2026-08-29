@@ -1,0 +1,15 @@
+{
+  "file_types": {
+    "Plain Text": ["StaticUniqueVec.cpp"],
+  },
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "arguments": ["--enable-config"],
+      },
+      "initialization_options": {
+        "fallbackFlags": ["-std=c++26"],
+      },
+    },
+  },
+}

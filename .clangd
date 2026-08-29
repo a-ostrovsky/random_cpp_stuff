@@ -1,0 +1,9 @@
+CompileFlags:
+  Add: [-std=c++26]
+
+If:
+  PathMatch: reflection/StaticUniqueVec\.cpp
+Diagnostics:
+  Suppress: '*'
+Index:
+  Background: Skip
