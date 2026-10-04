@@ -1,1 +1,5 @@
 build/
+.idea/
+
+/brainteasers/*
+!/brainteasers/storage.cpp
